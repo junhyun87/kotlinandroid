@@ -15,11 +15,17 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <Button
+            android:text="Show toast"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="true" tools:srcCompat="@tools:sample/backgrounds/scenic"
-            tools:layout_editor_absoluteY="168dp" tools:layout_editor_absoluteX="102dp"
-            android:id="@+id/floatingActionButton"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:id="@+id/btnShowToast"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
