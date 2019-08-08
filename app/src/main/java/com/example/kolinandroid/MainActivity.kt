@@ -25,6 +25,9 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Second Button was testclicked !", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, SecondAcivity::class.java)
+
+            intent.putExtra( "user_message", message)
+
             startActivity(intent)
 
         }
